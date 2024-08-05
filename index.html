@@ -9,8 +9,12 @@
 <body>
     <main>
         <p>Enter your text or URL</p>
-        <input type="text" placeholder="Text or URL">
-        <button>Generate QR Code</button>
+        <input type="text" placeholder="Text or URL" id="qrText">
+        <section id="imgBox">
+            <img src="" id="qrImage">
+        </section>
+
+        <button onclick="generateQR()">Generate QR Code</button>
     </main>
     <script src="assets/js/script.js"></script>
 </body>
